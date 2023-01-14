@@ -24,8 +24,9 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Ott Updates", url="https://t.me/Ott_UpdatezTG"),
-                InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz")
+                InlineKeyboardButton("Group 1", url="https://t.me/+WAASkCWDVwMHkY1s"),
+                InlineKeyboardButton("Group 2", url="https://t.me/+KOoNcfmnCvo4MmE1"),
+                InlineKeyboardButton("Group 3", url="https://t.me/+pYhVs_XYllVlNDI1")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
