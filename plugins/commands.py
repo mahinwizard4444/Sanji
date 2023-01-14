@@ -132,7 +132,9 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     
-                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("Group 1", url="https://t.me/+WAASkCWDVwMHkY1s"),
+                                                          InlineKeyboardButton("Group 2", url="https://t.me/+KOoNcfmnCvo4MmE1"),
+                                                          InlineKeyboardButton("Group 3", url="https://t.me/+pYhVs_XYllVlNDI1")] ] ),
                     
                     protect_content=msg.get('protect', False),
                     )
@@ -230,7 +232,9 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("Group 1", url="https://t.me/+WAASkCWDVwMHkY1s"),
+                                              InlineKeyboardButton("Group 2", url="https://t.me/+KOoNcfmnCvo4MmE1"),
+                                              InlineKeyboardButton("Group 3", url="https://t.me/+pYhVs_XYllVlNDI1")] ] ),
         
         protect_content=True if pre == 'filep' else False,
         )
