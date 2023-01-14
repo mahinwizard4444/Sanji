@@ -97,12 +97,7 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
-            ]
-        )
-        btn.insert(1,
-            [
-                InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz"),
+                InlineKeyboardButton("Ott Updates", url="https://t.me/+tu7FX0Y0JJ0zNzRl"),
             ]
         )
         btn.append(
@@ -670,12 +665,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
-        ]
-    )
-    btn.insert(1,
-        [
-            InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz"),
+            InlineKeyboardButton("Ott Updates", url="https://t.me/+tu7FX0Y0JJ0zNzRl"),
         ]
     )
 
