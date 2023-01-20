@@ -15,7 +15,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '19128968'))
 API_HASH = environ.get('API_HASH', '2f9e44d3ea2bc84ea1553ed6099fb2ae') 
 BOT_TOKEN = environ.get('BOT_TOKEN', "5985710912:AAFltFE7dOsnXkRgDNnyaJwcnvmoxVjeVvI") 
-AUTH_CHATS = [int(user) for user in (environ.get("AUTH_CHATS", "")).split()]
+AUTH_CHATS = [int(user) for user in (environ.get("AUTH_CHATS", "-1001476399760 -1001595285263 -1001790328010")).split()]
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -36,10 +36,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movieshd_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get("AUTH_CHANNEL", '-1001600582606')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1001559211971')
+REQ_CHANNEL = environ.get("REQ_CHANNEL", 'False')
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
